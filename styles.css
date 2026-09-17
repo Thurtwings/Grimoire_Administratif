@@ -157,11 +157,11 @@ h3 { font-size: 1.2rem; }
 
 .app-visual {
   position: relative;
-  min-height: 310px;
+  min-height: 330px;
   display: grid;
   place-items: center;
-  padding: 18px 12px 56px;
-  overflow: hidden;
+  padding: 24px 26px 82px;
+  overflow: visible;
   border: 1px solid rgba(214,168,77,.18);
   border-radius: 20px;
   background:
@@ -177,8 +177,10 @@ h3 { font-size: 1.2rem; }
   pointer-events: none;
 }
 .app-icon {
-  width: min(100%, 235px);
+  width: min(100%, 210px);
+  max-height: 220px;
   height: auto;
+  object-fit: contain;
   border-radius: 24px;
   filter: drop-shadow(0 18px 28px rgba(0,0,0,.48));
   position: relative;
@@ -187,9 +189,11 @@ h3 { font-size: 1.2rem; }
 .coin-set {
   position: absolute;
   left: 50%;
-  bottom: 4px;
-  width: min(94%, 320px);
+  bottom: 14px;
+  width: min(82%, 270px);
+  max-width: calc(100% - 44px);
   height: auto;
+  object-fit: contain;
   transform: translateX(-50%);
   filter: drop-shadow(0 10px 12px rgba(0,0,0,.44));
   z-index: 2;
@@ -243,6 +247,7 @@ body.lang-en [data-lang="en"] { display: revert; }
   .hero { padding-top: 62px; }
   .feature-list { grid-template-columns: 1fr; }
   .app-card, .privacy-card, .feature-card, .support-card { border-radius: 17px; }
-  .app-visual { min-height: 270px; padding-bottom: 50px; }
-  .app-icon { width: min(100%, 205px); }
+  .app-visual { min-height: 300px; padding: 20px 18px 76px; }
+  .app-icon { width: min(100%, 190px); max-height: 205px; }
+  .coin-set { width: min(84%, 250px); max-width: calc(100% - 34px); bottom: 12px; }
 }
