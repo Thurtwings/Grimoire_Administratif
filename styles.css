@@ -157,74 +157,42 @@ h3 { font-size: 1.2rem; }
 
 .app-visual {
   position: relative;
-  min-height: 330px;
-  display: grid;
-  place-items: start center;
-  padding: 4px 8px 96px;
+  min-height: 360px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 0 20px;
   overflow: visible;
 }
 .app-icon {
-  width: min(100%, 225px);
-  max-height: 235px;
+  width: min(100%, 235px);
   height: auto;
+  max-height: none;
   object-fit: contain;
-  border-radius: 24px;
+  border-radius: 22px;
   filter: drop-shadow(0 18px 28px rgba(0,0,0,.48));
   position: relative;
   z-index: 1;
 }
 
 .coin-cloud {
-  position: absolute;
-  left: 50%;
-  bottom: 0;
-  width: min(100%, 350px);
-  height: 125px;
-  transform: translateX(-50%);
+  position: relative;
+  left: auto;
+  bottom: auto;
+  width: min(92%, 310px);
+  height: 94px;
+  transform: none;
   pointer-events: none;
   z-index: 2;
-}
-.coin-sprite {
-  position: absolute;
-  bottom: 0;
-  display: block;
-  height: 150px;
   background-image: url('./assets/grimoire-bourse/coins.webp');
   background-repeat: no-repeat;
-  background-size: 620px 150px;
+  background-position: center center;
+  background-size: contain;
   filter: drop-shadow(0 10px 12px rgba(0,0,0,.42));
-  transform-origin: 50% 100%;
 }
-.coin-pc {
-  left: 7%;
-  width: 76px;
-  background-position: 0 0;
-  transform: translateX(-50%) translateY(14px) rotate(-10deg) scale(.72);
-}
-.coin-pa {
-  left: 28%;
-  width: 133px;
-  background-position: -96px 0;
-  transform: translateX(-50%) translateY(-2px) rotate(-5deg) scale(.55);
-}
-.coin-pe {
-  left: 50%;
-  width: 133px;
-  background-position: -249px 0;
-  transform: translateX(-50%) translateY(-11px) scale(.57);
-}
-.coin-po {
-  left: 72%;
-  width: 122px;
-  background-position: -402px 0;
-  transform: translateX(-50%) translateY(-2px) rotate(5deg) scale(.60);
-}
-.coin-pp {
-  left: 93%;
-  width: 76px;
-  background-position: -544px 0;
-  transform: translateX(-50%) translateY(14px) rotate(10deg) scale(.72);
-}
+.coin-sprite { display: none; }
 
 .grid-3 { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
 .feature-card { padding: 24px; box-shadow: none; }
@@ -274,12 +242,7 @@ body.lang-en [data-lang="en"] { display: revert; }
   .hero { padding-top: 62px; }
   .feature-list { grid-template-columns: 1fr; }
   .app-card, .privacy-card, .feature-card, .support-card { border-radius: 17px; }
-  .app-visual { min-height: 305px; padding: 4px 0 92px; }
-  .app-icon { width: min(100%, 195px); max-height: 210px; }
-  .coin-cloud { width: 300px; height: 112px; }
-  .coin-pc { left: 8%; transform: translateX(-50%) translateY(16px) rotate(-10deg) scale(.62); }
-  .coin-pa { left: 29%; transform: translateX(-50%) translateY(0) rotate(-5deg) scale(.48); }
-  .coin-pe { left: 50%; transform: translateX(-50%) translateY(-8px) scale(.50); }
-  .coin-po { left: 71%; transform: translateX(-50%) translateY(0) rotate(5deg) scale(.52); }
-  .coin-pp { left: 92%; transform: translateX(-50%) translateY(16px) rotate(10deg) scale(.62); }
+  .app-visual { min-height: 330px; padding: 0 10px; gap: 8px; }
+  .app-icon { width: min(100%, 205px); }
+  .coin-cloud { width: min(94%, 285px); height: 86px; }
 }
