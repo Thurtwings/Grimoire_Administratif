@@ -4,26 +4,22 @@ Dépôt public des documents administratifs et du site officiel de la suite **Gr
 
 Ce dépôt centralise les documents destinés à être consultés publiquement ou référencés depuis les boutiques d'applications :
 
+- site vitrine Thurtwings Games / Suite Grimoire ;
 - politiques de confidentialité ;
 - informations Google Play / stores ;
 - textes de fiche d'application ;
 - notes Data Safety ;
-- informations de contact publiques ;
-- site public Thurtwings Games / Grimoire.
+- informations de contact publiques.
 
 ## Site public
 
-Le dépôt contient un site statique bilingue FR/EN prêt pour GitHub Pages.
+Le site GitHub Pages est prévu à l'adresse :
 
-URL prévue :
+- https://thurtwings.github.io/Grimoire_Administratif/
 
-`https://thurtwings.github.io/Grimoire_Administratif/`
+Politique de confidentialité Grimoire Bourse / Grimoire Wallet :
 
-Politique de confidentialité publique de Grimoire Bourse / Grimoire Wallet :
-
-`https://thurtwings.github.io/Grimoire_Administratif/legal/grimoire-bourse/privacy-policy.html`
-
-Le site est volontairement sans framework, sans analytics, sans publicité et sans dépendance externe.
+- https://thurtwings.github.io/Grimoire_Administratif/legal/grimoire-bourse/privacy-policy.html
 
 ## Contact
 
@@ -35,14 +31,14 @@ E-mail : **thurtwings.games@gmail.com**
 ```text
 index.html
 styles.css
-404.html
-.nojekyll
-
+assets/
+  grimoire-bourse/
+    app-icon.webp
+    coins.webp
 legal/
   grimoire-bourse/
     privacy-policy.md
     privacy-policy.html
-
 play-store/
   grimoire-bourse/
     listing-fr.md
@@ -51,18 +47,6 @@ play-store/
 ```
 
 D'autres applications de la suite pourront être ajoutées avec la même organisation.
-
-## GitHub Pages
-
-Configuration recommandée :
-
-1. `Settings` → `Pages` ;
-2. `Build and deployment` → `Deploy from a branch` ;
-3. branche `main` ;
-4. dossier `/(root)` ;
-5. `Save`.
-
-Le fichier `.nojekyll` force GitHub Pages à servir directement les fichiers statiques du dépôt.
 
 ## Règles du dépôt
 
@@ -83,6 +67,6 @@ Les applications peuvent conserver une copie locale de leur politique afin qu'el
 
 - Package Android : `com.thurtwings.grimoire.money`
 - Développeur : Thurtwings Games
-- Politique source : [`legal/grimoire-bourse/privacy-policy.md`](legal/grimoire-bourse/privacy-policy.md)
-- Politique web : [`legal/grimoire-bourse/privacy-policy.html`](legal/grimoire-bourse/privacy-policy.html)
+- Politique de confidentialité : [`legal/grimoire-bourse/privacy-policy.md`](legal/grimoire-bourse/privacy-policy.md)
+- Version web : [`legal/grimoire-bourse/privacy-policy.html`](legal/grimoire-bourse/privacy-policy.html)
 - Documents Google Play : [`play-store/grimoire-bourse/`](play-store/grimoire-bourse/)
