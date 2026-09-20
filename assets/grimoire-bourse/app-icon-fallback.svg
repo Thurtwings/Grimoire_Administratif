@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Grimoire Bourse</title>
+  <desc id="desc">Icône de secours Grimoire Bourse avec grimoire et pièces.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2b2117"/>
+      <stop offset="1" stop-color="#0d0a08"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f0d58e"/>
+      <stop offset="1" stop-color="#b77a2c"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#000" flood-opacity=".42"/>
+    </filter>
+  </defs>
+  <rect x="18" y="18" width="476" height="476" rx="104" fill="url(#bg)" stroke="#7e5721" stroke-width="10"/>
+  <g filter="url(#shadow)">
+    <path d="M116 126c58-25 102-22 140 4v242c-39-25-83-29-140-4z" fill="#efe5cf" stroke="#d6a84d" stroke-width="10" stroke-linejoin="round"/>
+    <path d="M396 126c-58-25-102-22-140 4v242c39-25 83-29 140-4z" fill="#e4d6ba" stroke="#d6a84d" stroke-width="10" stroke-linejoin="round"/>
+    <path d="M256 132v238" stroke="#8c642b" stroke-width="8" stroke-linecap="round"/>
+    <path d="M157 180h64M157 218h64M157 256h52" stroke="#8b765a" stroke-width="8" stroke-linecap="round" opacity=".75"/>
+    <path d="M291 180h64M291 218h64M303 256h52" stroke="#8b765a" stroke-width="8" stroke-linecap="round" opacity=".75"/>
+  </g>
+  <g transform="translate(0 10)">
+    <circle cx="168" cy="365" r="43" fill="#a8652c" stroke="#f0d58e" stroke-width="8"/>
+    <circle cx="256" cy="389" r="46" fill="#d6a84d" stroke="#f5df9f" stroke-width="8"/>
+    <circle cx="344" cy="365" r="43" fill="#c7c7c2" stroke="#f0d58e" stroke-width="8"/>
+    <path d="M151 365h34M168 348v34M239 389h34M256 372v34M327 365h34M344 348v34" stroke="#4b3925" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <path d="M256 77l12 25 28 4-20 20 5 28-25-13-25 13 5-28-20-20 28-4z" fill="url(#gold)"/>
+</svg>
