@@ -27,8 +27,12 @@ E-mail : **thurtwings.games@gmail.com**
 ```text
 assets/
   grimoire-bourse/
-    app-icon.webp
-    coins.webp
+    app-icon.png
+    coin_pc.png
+    coin_pa.png
+    coin_pe.png
+    coin_po.png
+    coin_pp.png
 
 legal/
   grimoire-bourse/
