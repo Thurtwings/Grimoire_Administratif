@@ -6,7 +6,7 @@ Document préparatoire basé sur le comportement actuel de l'application **Grimo
 
 - Développeur : **Thurtwings Games**
 - Package Android : `com.thurtwings.grimoire.money`
-- Version candidate : `1.2` (`versionCode 3`)
+- Version candidate : `1.3.0` (`versionCode 5`)
 - Contact : **thurtwings.games@gmail.com**
 
 ## État actuel
@@ -28,7 +28,8 @@ Document préparatoire basé sur le comportement actuel de l'application **Grimo
 L'application peut conserver localement :
 
 - personnages créés dans l'application ;
-- montants de monnaie ;
+- système monétaire choisi pour chaque personnage ;
+- montants de monnaie et dénominations ;
 - coffres de groupe ;
 - dettes ;
 - historique des opérations ;
@@ -50,7 +51,7 @@ La version candidate ne demande pas de permission Internet, de localisation, de 
 
 ## Politique de confidentialité
 
-https://github.com/Thurtwings/Grimoire_Administratif/blob/main/legal/grimoire-bourse/privacy-policy.md
+https://thurtwings.github.io/Grimoire_Administratif/legal/grimoire-bourse/privacy-policy.html
 
 ## Note
 
