@@ -5,35 +5,40 @@
 - Nom : **Grimoire Bourse**
 - Développeur : **Thurtwings Games**
 - Package Android : `com.thurtwings.grimoire.money`
-- Version candidate : `1.2` (`versionCode 3`)
+- Version candidate : `1.3.0` (`versionCode 5`)
 - Catégorie suggérée : **Outils**
 - Contact support/confidentialité : **thurtwings.games@gmail.com**
-- Politique de confidentialité : https://github.com/Thurtwings/Grimoire_Administratif/blob/main/legal/grimoire-bourse/privacy-policy.md
+- Politique de confidentialité : https://thurtwings.github.io/Grimoire_Administratif/legal/grimoire-bourse/privacy-policy.html
 
 ## Description courte
 
-Gère monnaie, partages, coffres et dettes de tes parties de JDR.
+Gère bourses, coffre, partages et dettes pour plusieurs systèmes de JDR.
 
 ## Description longue
 
-Grimoire Bourse aide à gérer la monnaie d'une campagne de jeu de rôle sur table, sans compte, sans publicité et sans suivi.
+Grimoire Bourse aide à gérer la monnaie de tes parties de jeu de rôle sur table, sans compte, sans publicité et sans suivi.
 
-L'application permet de suivre plusieurs personnages, leur bourse personnelle, un coffre de groupe, les partages de récompenses, les dettes et l'historique des opérations. Les rapports copiables facilitent le partage d'un état clair dans une conversation de groupe après une séance.
+La version 1.3.0 prend en charge trois presets monétaires :
+
+- **D&D 5e 2014** : PC, PA, PE, PO et PP, avec optimisation volontaire, change et poids des pièces ;
+- **Shadowrun** : Nuyen, avec une seule dénomination ;
+- **Fallout** : Capsules, avec une seule dénomination.
+
+Chaque personnage conserve son propre système monétaire, sa bourse, son coffre, ses dettes et son historique. Les outils inutiles sont automatiquement masqués selon le preset actif : par exemple, Shadowrun et Fallout n'affichent ni optimisation, ni change, ni poids de pièces.
 
 Fonctions principales :
 
-- bourse personnelle par personnage ;
-- monnaies fantasy PC, PA, PE, PO et PP ;
-- activation ou masquage de l'électrum et du platine ;
+- plusieurs personnages avec système monétaire dédié ;
+- bourse personnelle et coffre de groupe ;
+- conservation exacte des dénominations saisies ;
 - ajout, retrait et définition directe de montants ;
-- conversion automatique vers les meilleures pièces disponibles ;
-- partage de récompenses avec reste vers le coffre ;
-- coffre de groupe et aperçu depuis le trésor ;
+- optimisation et change volontaires pour D&D ;
+- partage de récompenses avec gestion du reste ;
 - dettes à recevoir et à payer, y compris pour le coffre ;
-- règlement partiel ou complet des dettes ;
+- règlements partiels ou complets ;
 - annulation de la dernière transaction ;
 - historique local ;
-- rapport configurable à copier ;
+- rapports configurables à copier ;
 - thèmes clair, sombre ou automatique ;
 - options d'accessibilité et profils de daltonisme ;
 - politique de confidentialité consultable hors ligne.
