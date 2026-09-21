@@ -65,7 +65,10 @@ Les applications peuvent conserver une copie locale de leur politique afin qu'el
 
 ### Grimoire Bourse / Grimoire Wallet
 
+- Version documentée : **1.3.0** (`versionCode 5`)
 - Package Android : `com.thurtwings.grimoire.money`
 - Développeur : Thurtwings Games
+- Presets monétaires disponibles : **D&D 5e 2014**, **Shadowrun (Nuyen)** et **Fallout (Capsules / Caps)**
+- Stockage local, sans compte, publicité, analytics, tracking ni permission Internet
 - Politique de confidentialité : [`legal/grimoire-bourse/privacy-policy.md`](legal/grimoire-bourse/privacy-policy.md)
 - Documents Google Play : [`play-store/grimoire-bourse/`](play-store/grimoire-bourse/)
