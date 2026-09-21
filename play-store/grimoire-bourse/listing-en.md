@@ -5,36 +5,41 @@
 - App name: **Grimoire Wallet**
 - Developer: **Thurtwings Games**
 - Android package: `com.thurtwings.grimoire.money`
-- Candidate version: `1.2` (`versionCode 3`)
+- Candidate version: `1.3.0` (`versionCode 5`)
 - Suggested category: **Tools**
 - Support/privacy contact: **thurtwings.games@gmail.com**
-- Privacy policy: https://github.com/Thurtwings/Grimoire_Administratif/blob/main/legal/grimoire-bourse/privacy-policy.md
+- Privacy policy: https://thurtwings.github.io/Grimoire_Administratif/legal/grimoire-bourse/privacy-policy.html
 
 ## Short description
 
-Track coins, loot splits, party chests and debts for tabletop RPGs.
+Track wallets, party chests, loot splits and debts across multiple TTRPG systems.
 
 ## Long description
 
-Grimoire Wallet helps manage campaign currency for tabletop role-playing games, without accounts, ads, or tracking.
+Grimoire Wallet helps manage currency in tabletop role-playing games without accounts, ads, or tracking.
 
-The app lets you track multiple characters, personal wallets, a party chest, loot splits, debts, and operation history. Configurable copied reports make it easier to share a clear summary in a group chat after a session.
+Version 1.3.0 supports three currency presets:
+
+- **D&D 5e 2014**: CP, SP, EP, GP and PP, with optional optimization, exchange and coin weight;
+- **Shadowrun**: Nuyen as a single denomination;
+- **Fallout**: Caps as a single denomination.
+
+Each character keeps its own currency system, wallet, party chest, debts and history. Tools that do not apply to the active preset are hidden automatically: for example, Shadowrun and Fallout do not show coin optimization, exchange or coin weight.
 
 Main features:
 
-- personal wallet per character;
-- fantasy coins CP, SP, EP, GP, and PP;
-- optional electrum and platinum coins;
-- add, subtract, or set amounts directly;
-- automatic conversion into available coin types;
-- loot splitting with leftovers sent to the chest;
-- party chest with a treasury preview;
+- multiple characters with their own currency system;
+- personal wallet and party chest;
+- exact preservation of entered denominations;
+- add, subtract or set amounts directly;
+- optional optimization and exchange for D&D;
+- loot splitting with remainder handling;
 - debts to receive and to pay, including chest debts;
 - partial or full debt settlement;
 - undo last transaction;
 - local history;
-- configurable report copying;
-- light, dark, or automatic theme;
+- configurable copied reports;
+- light, dark or automatic theme;
 - accessibility options and color-blindness profiles;
 - offline privacy policy.
 
