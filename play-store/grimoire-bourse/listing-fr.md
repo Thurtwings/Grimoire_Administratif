@@ -1,48 +1,95 @@
-# Google Play — Grimoire Bourse (FR)
+# Google Play — Grimoire Inventaire (FR)
 
 ## Identité
 
-- Nom : **Grimoire Bourse**
+- Nom : **Grimoire Inventaire**
 - Développeur : **Thurtwings Games**
 - Package Android : `com.thurtwings.grimoire.money`
-- Version candidate : `1.3.0` (`versionCode 5`)
+- Version candidate : **1.5.0** (`versionCode 8`)
 - Catégorie suggérée : **Outils**
 - Contact support/confidentialité : **thurtwings.games@gmail.com**
 - Politique de confidentialité : https://thurtwings.github.io/Grimoire_Administratif/legal/grimoire-bourse/privacy-policy.html
 
 ## Description courte
 
-Gère bourses, coffre, partages et dettes pour plusieurs systèmes de JDR.
+Inventaire, bourse et coffre partagé local pour tes parties de JDR.
 
 ## Description longue
 
-Grimoire Bourse aide à gérer la monnaie de tes parties de jeu de rôle sur table, sans compte, sans publicité et sans suivi.
+**Grimoire Inventaire** t'aide à suivre les possessions de tes personnages de jeu de rôle sur table sans transformer la partie en séance de comptabilité.
 
-La version 1.3.0 prend en charge trois presets monétaires :
+Chaque personnage conserve localement son inventaire, sa bourse, son coffre, ses dettes et son historique. L'application fonctionne sans compte, sans publicité, sans analytics et sans permission Internet.
 
-- **D&D 5e 2014** : PC, PA, PE, PO et PP, avec optimisation volontaire, change et poids des pièces ;
-- **Shadowrun** : Nuyen, avec une seule dénomination ;
-- **Fallout** : Capsules, avec une seule dénomination.
+### Inventaire
 
-Chaque personnage conserve son propre système monétaire, sa bourse, son coffre, ses dettes et son historique. Les outils inutiles sont automatiquement masqués selon le preset actif : par exemple, Shadowrun et Fallout n'affichent ni optimisation, ni change, ni poids de pièces.
+Crée librement tes objets et suis :
 
-Fonctions principales :
+- leur quantité ;
+- leur catégorie ;
+- leur emplacement ;
+- leur poids unitaire si tu veux le renseigner ;
+- une note facultative.
 
-- plusieurs personnages avec système monétaire dédié ;
-- bourse personnelle et coffre de groupe ;
-- conservation exacte des dénominations saisies ;
-- ajout, retrait et définition directe de montants ;
-- optimisation et change volontaires pour D&D ;
-- partage de récompenses avec gestion du reste ;
-- dettes à recevoir et à payer, y compris pour le coffre ;
-- règlements partiels ou complets ;
-- annulation de la dernière transaction ;
-- historique local ;
-- rapports configurables à copier ;
+Les boutons rapides permettent d'augmenter ou de diminuer une quantité en quelques secondes, pratique pour les flèches, potions, rations et autres consommables.
+
+### Bourse multi-système
+
+Huit presets monétaires sont intégrés :
+
+- **D&D 5e 2014** ;
+- **Pathfinder 1e** ;
+- **Pathfinder 2e** ;
+- **Warhammer Fantasy Roleplay 4e** ;
+- **Shadowdark** ;
+- **Shadowrun** ;
+- **Fallout** ;
+- **Cyberpunk RED**.
+
+Selon le système, Grimoire adapte automatiquement les dénominations et les outils disponibles.
+
+Tu peux notamment :
+
+- conserver exactement les pièces saisies ;
+- ajouter, retirer ou définir un montant ;
+- optimiser volontairement la bourse lorsque le système le permet ;
+- effectuer un change lorsque le système le permet.
+
+### Coffre, récompenses et dettes
+
+Le coffre du groupe peut contenir de la monnaie et des objets.
+
+Grimoire permet aussi :
+
+- de calculer et répartir une récompense ;
+- de gérer le reste ;
+- de suivre les dettes personnelles et celles du coffre ;
+- de régler une dette partiellement ou entièrement ;
+- d'annuler la dernière opération financière ;
+- de consulter l'historique ;
+- de copier des rapports adaptés au système actif.
+
+### Partage du coffre à proximité
+
+La version 1.5 introduit un partage local volontaire par **Bluetooth Low Energy**.
+
+Un appareil manager peut rendre son coffre visible à proximité. Les autres joueurs demandent l'accès et, après autorisation, consultent en **lecture seule** :
+
+- l'argent du coffre ;
+- les objets du coffre ;
+- les dettes actives du coffre.
+
+La bourse personnelle, les objets personnels, les dettes personnelles, le journal et les autres personnages ne sont pas transmis.
+
+Le partage est direct entre appareils proches : **aucun compte, aucun serveur Thurtwings Games, aucun cloud et aucune permission Internet**.
+
+### Pensé pour la table
+
+Grimoire Inventaire propose également :
+
+- plusieurs personnages indépendants ;
 - thèmes clair, sombre ou automatique ;
-- options d'accessibilité et profils de daltonisme ;
+- options d'accessibilité ;
+- profils de daltonisme ;
 - politique de confidentialité consultable hors ligne.
 
-Grimoire Bourse fonctionne localement sur l'appareil. Elle ne nécessite pas de compte, ne contient pas de publicité, ne collecte pas d'analytics et ne transmet pas de données à Thurtwings Games.
-
-Cette application est un outil indépendant pour jeux de rôle sur table. Elle n'est pas officielle et n'est affiliée à aucun éditeur de jeu de rôle.
+Grimoire Inventaire est un outil indépendant pour jeux de rôle sur table. L'application n'est pas officielle et n'est affiliée à aucun éditeur de jeu de rôle.
