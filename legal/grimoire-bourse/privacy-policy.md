@@ -1,35 +1,70 @@
-# Politique de confidentialité — Grimoire Bourse
+# Politique de confidentialité — Grimoire Inventaire
 
-Dernière mise à jour : 15 septembre 2026
+Dernière mise à jour : 2 octobre 2026
 
-Grimoire Bourse est une application développée et publiée sous le nom **Thurtwings Games**, au sein de la **suite Grimoire**.
+Grimoire Inventaire est une application développée et publiée sous le nom **Thurtwings Games**, au sein de la **suite Grimoire**.
 
 ## Résumé
 
-Grimoire Bourse ne collecte, ne transmet et ne vend aucune donnée personnelle à Thurtwings Games ou à des tiers.
+Grimoire Inventaire ne collecte, n'envoie ni ne vend de données personnelles à Thurtwings Games, à des annonceurs ou à des services d'analyse.
 
-L'application fonctionne sans compte, sans publicité, sans suivi analytique, sans service cloud propre à l'application et sans connexion réseau obligatoire.
+L'application fonctionne sans compte, sans publicité, sans analytics, sans service cloud propre à l'application et sans permission Internet.
+
+La fonction facultative **Partage à proximité** peut transmettre directement, par Bluetooth Low Energy, certaines données du coffre du groupe à des appareils proches explicitement autorisés par le manager.
 
 ## Données stockées localement
 
-Pour fonctionner, Grimoire Bourse conserve certaines informations localement sur l'appareil de l'utilisateur, notamment :
+Pour fonctionner, Grimoire Inventaire conserve localement sur l'appareil de l'utilisateur notamment :
 
 - les personnages créés dans l'application ;
-- les montants de monnaie ;
+- les objets d'inventaire ;
+- les quantités ;
+- les catégories et emplacements ;
+- les poids éventuels ;
+- les notes d'objets ;
+- les systèmes monétaires sélectionnés ;
+- les montants et dénominations ;
 - les coffres de groupe ;
 - les dettes ;
-- les préférences de réglages ;
+- les préférences et réglages ;
 - l'historique des opérations.
 
-Ces données sont stockées localement sur l'appareil par les mécanismes de stockage Android utilisés par l'application.
+Ces données sont stockées localement à l'aide des mécanismes de stockage Android utilisés par l'application.
+
+## Partage à proximité par Bluetooth
+
+Le partage à proximité est facultatif et doit être activé volontairement.
+
+Un appareil peut agir comme **manager** du coffre. Les appareils proches peuvent rechercher les coffres Grimoire, demander l'accès, puis recevoir les données uniquement après autorisation du manager.
+
+Lorsqu'un accès est accepté, le spectateur reçoit une vue en lecture seule pouvant contenir :
+
+- le nom du personnage manager ;
+- le système monétaire du coffre ;
+- le montant du coffre ;
+- les objets placés dans le coffre du groupe, avec leurs quantités, catégories, poids éventuels et notes ;
+- les dettes actives appartenant au coffre.
+
+Ne sont pas transmis par ce partage :
+
+- la bourse personnelle ;
+- les objets personnels ou contenus dans le sac ;
+- les dettes personnelles ;
+- le journal financier ;
+- les préférences de l'application ;
+- les autres personnages.
+
+Le coffre distant reste séparé des données locales du spectateur. Le manager peut arrêter le partage à tout moment.
+
+Cette communication est directe entre appareils proches et n'utilise aucun serveur Thurtwings Games.
 
 ## Presse-papiers
 
-Lorsque l'utilisateur utilise la fonction **Copier rapport**, Grimoire Bourse place le rapport généré dans le presse-papiers du système Android.
+Lorsque l'utilisateur utilise la fonction **Copier rapport**, Grimoire Inventaire place le rapport généré dans le presse-papiers Android.
 
 Cette action se produit uniquement après une action explicite de l'utilisateur.
 
-Une fois le contenu placé dans le presse-papiers, son utilisation par d'autres applications dépend du système Android, des applications installées et des choix de l'utilisateur. Grimoire Bourse ne transmet elle-même ce rapport à aucun serveur.
+Une fois le contenu placé dans le presse-papiers, son utilisation par d'autres applications dépend du système Android, des applications installées et des choix de l'utilisateur. Grimoire Inventaire ne transmet elle-même ce rapport à aucun serveur.
 
 ## Sauvegarde Android
 
@@ -37,17 +72,19 @@ L'application autorise actuellement les mécanismes de sauvegarde proposés par 
 
 Selon la configuration de l'appareil, du compte Android et du système, certaines données locales de l'application peuvent donc être sauvegardées ou restaurées par Android.
 
-Cette sauvegarde éventuelle est gérée par le système Android, pas par un service cloud propre à Grimoire Bourse ou à Thurtwings Games.
+Cette éventuelle sauvegarde est gérée par Android et non par un service cloud exploité par Thurtwings Games.
 
 ## Partage avec des tiers
 
-Grimoire Bourse ne partage pas les données de l'utilisateur avec des tiers.
+Grimoire Inventaire n'envoie aucune donnée à Thurtwings Games, à des annonceurs, à des services d'analytics ou à des services de profilage.
+
+Un utilisateur peut toutefois choisir de partager localement le contenu de son coffre avec un autre utilisateur à proximité via Bluetooth Low Energy. Cette transmission est déclenchée volontairement et nécessite l'autorisation du manager.
 
 L'application n'intègre aucun SDK publicitaire, analytique ou de profilage.
 
 ## Conservation et suppression des données
 
-Les données de Grimoire Bourse restent stockées localement tant que l'utilisateur conserve l'application et ses données.
+Les données locales restent sur l'appareil tant que l'utilisateur conserve l'application et ses données.
 
 L'utilisateur peut supprimer ces données :
 
@@ -55,83 +92,128 @@ L'utilisateur peut supprimer ces données :
 - depuis les paramètres Android de l'application ;
 - en désinstallant l'application.
 
+Les données d'un coffre distant consulté restent séparées des données locales et ne remplacent pas le coffre local.
+
 ## Permissions et réseau
 
-Grimoire Bourse ne demande pas de permission Internet, de localisation, de contacts, de caméra ou de microphone.
+Grimoire Inventaire ne demande pas de permission Internet, de contacts, de caméra ou de microphone.
 
-Les informations utilisées par Grimoire Bourse restent normalement stockées localement sur l'appareil.
+Pour le partage à proximité :
+
+- sur Android 12 et suivants, l'application peut demander les permissions Bluetooth **Appareils à proximité** nécessaires au scan, à la connexion ou à l'advertising ;
+- le scan Bluetooth récent est déclaré `neverForLocation` et n'est pas utilisé pour déterminer la position physique ;
+- sur Android 11 et antérieurs, Android exige historiquement une permission de localisation pour certains scans BLE. Cette permission est limitée à ces anciennes versions et Grimoire ne l'utilise pas pour déterminer, enregistrer ou transmettre la position physique de l'utilisateur.
+
+Le partage local du coffre fonctionne sans permission Internet et sans serveur applicatif.
 
 ## Public concerné
 
-Grimoire Bourse est un outil de gestion de monnaie destiné au jeu de rôle sur table.
+Grimoire Inventaire est un outil de gestion d'inventaire, de monnaie et de coffre destiné au jeu de rôle sur table.
 
 L'application n'est pas un service social, ne propose pas de compte utilisateur et ne demande pas d'informations d'identité.
 
 ## Modifications de cette politique
 
-Cette politique pourra être mise à jour si les fonctionnalités de Grimoire Bourse évoluent, notamment si un futur service en ligne, une synchronisation, un système d'analyse ou un composant tiers ayant un impact sur la vie privée est ajouté.
+Cette politique pourra être mise à jour si les fonctionnalités de Grimoire Inventaire évoluent, notamment si un futur service en ligne, une nouvelle forme de synchronisation, un système d'analyse ou un composant tiers ayant un impact sur la vie privée est ajouté.
 
 Toute évolution devra rester cohérente avec le comportement réel de l'application.
 
 ## Contact
 
-Pour toute question concernant cette politique de confidentialité ou Grimoire Bourse :
+Pour toute question concernant cette politique de confidentialité ou Grimoire Inventaire :
 
 - Contact : Thurtwings Games
-- E-mail de contact : thurtwings.games@gmail.com
+- E-mail : thurtwings.games@gmail.com
 
 ---
 
-# Privacy Policy — Grimoire Wallet
+# Privacy Policy — Grimoire Inventory
 
-Last updated: September 15, 2026
+Last updated: October 2, 2026
 
-Grimoire Wallet is an application developed and published under the name **Thurtwings Games**, as part of the **Grimoire suite**.
+Grimoire Inventory is an application developed and published under the name **Thurtwings Games**, as part of the **Grimoire suite**.
 
 ## Summary
 
-Grimoire Wallet does not collect, transmit, sell, or share personal data with Thurtwings Games or third parties.
+Grimoire Inventory does not collect, send or sell personal data to Thurtwings Games, advertisers or analytics providers.
 
-The application works without an account, without ads, without analytics tracking, without an application-owned cloud service, and without any required network connection.
+The app works without an account, ads, analytics, an application-owned cloud service or Internet permission.
+
+The optional **Nearby sharing** feature can directly transmit selected party-chest data to nearby devices explicitly approved by the manager over Bluetooth Low Energy.
 
 ## Locally stored data
 
-To provide its features, Grimoire Wallet stores some information locally on the user's device, including:
+To provide its features, Grimoire Inventory stores information locally on the user's device, including:
 
-- characters created in the application;
-- currency amounts;
-- group chests;
+- characters created in the app;
+- inventory items;
+- quantities;
+- categories and locations;
+- optional weights;
+- item notes;
+- selected currency systems;
+- currency amounts and denominations;
+- party chests;
 - debts;
-- settings preferences;
+- preferences and settings;
 - operation history.
 
-This information is stored locally on the device using Android storage mechanisms used by the application.
+This data is stored locally using Android storage mechanisms used by the application.
+
+## Nearby sharing over Bluetooth
+
+Nearby sharing is optional and must be enabled voluntarily.
+
+A device can act as the **manager** of a chest. Nearby devices can search for Grimoire chests, request access, and receive data only after approval by the manager.
+
+When access is approved, the viewer receives a read-only view that may contain:
+
+- the manager character name;
+- the chest currency system;
+- the chest balance;
+- items located in the party chest, including quantities, categories, optional weights and notes;
+- active debts belonging to the chest.
+
+The following are not transmitted through nearby sharing:
+
+- the personal wallet;
+- personal or bagged items;
+- personal debts;
+- the financial log;
+- application preferences;
+- other characters.
+
+The remote chest remains separate from the viewer's local data. The manager can stop sharing at any time.
+
+This communication happens directly between nearby devices and does not use a Thurtwings Games server.
 
 ## Clipboard
 
-When the user chooses **Copy report**, Grimoire Wallet places the generated report in the Android system clipboard.
+When the user chooses **Copy report**, Grimoire Inventory places the generated report in the Android system clipboard.
 
 This only happens after an explicit user action.
 
-Once content has been placed in the clipboard, its availability to other applications depends on Android, installed applications, and the user's choices. Grimoire Wallet does not itself transmit the report to any server.
+Once content is in the clipboard, its availability to other apps depends on Android, installed apps and the user's choices. Grimoire Inventory does not itself send this report to any server.
 
 ## Android backup
 
-The application currently allows Android's backup mechanisms (`android:allowBackup="true"`).
+The application currently allows Android backup mechanisms (`android:allowBackup="true"`).
 
-Depending on the device, Android account, and system configuration, some local application data may therefore be backed up or restored by Android.
+Depending on the device, Android account and system configuration, some local app data may therefore be backed up or restored by Android.
 
-This optional backup is managed by the Android system, not by an application-owned cloud service operated by Grimoire Wallet or Thurtwings Games.
+This optional backup is managed by Android and not by a cloud service operated by Thurtwings Games.
 
 ## Sharing with third parties
 
-Grimoire Wallet does not share user data with third parties.
+Grimoire Inventory does not send data to Thurtwings Games, advertisers, analytics services or profiling services.
 
-The application does not include advertising, analytics, or profiling SDKs.
+A user may however choose to share the contents of a chest locally with another nearby user over Bluetooth Low Energy. This transfer is voluntary and requires the manager's approval.
+
+The application does not include advertising, analytics or profiling SDKs.
 
 ## Data retention and deletion
 
-Grimoire Wallet data remains stored locally for as long as the user keeps the application and its data.
+Local data remains on the device for as long as the user keeps the application and its data.
 
 The user can delete this data:
 
@@ -139,27 +221,35 @@ The user can delete this data:
 - through Android application settings;
 - by uninstalling the application.
 
+Remote chest data viewed during nearby sharing remains separate from local data and does not replace the local chest.
+
 ## Permissions and network
 
-Grimoire Wallet does not request Internet, location, contacts, camera, or microphone permissions.
+Grimoire Inventory does not request Internet, contacts, camera or microphone permissions.
 
-Information used by Grimoire Wallet normally remains stored locally on the user's device.
+For nearby sharing:
+
+- on Android 12 and later, the app may request the Bluetooth **Nearby devices** permissions needed to scan, connect or advertise;
+- modern Bluetooth scanning is declared `neverForLocation` and is not used to determine physical location;
+- on Android 11 and earlier, Android historically requires a location permission for some BLE scans. This permission is limited to those older versions, and Grimoire does not use it to determine, store or transmit the user's physical location.
+
+Local chest sharing works without Internet permission and without an application server.
 
 ## Intended audience
 
-Grimoire Wallet is a currency-management tool intended for tabletop role-playing games.
+Grimoire Inventory is an inventory, currency and party-chest management tool for tabletop role-playing games.
 
-The application is not a social service, does not provide user accounts, and does not request identity information.
+The app is not a social service, does not provide user accounts and does not request identity information.
 
 ## Changes to this policy
 
-This policy may be updated if Grimoire Wallet changes, particularly if a future online service, synchronization system, analytics feature, or third-party component affecting privacy is introduced.
+This policy may be updated if Grimoire Inventory changes, particularly if a future online service, a new form of synchronization, analytics or a third-party component affecting privacy is introduced.
 
-Any change must remain consistent with the application's real behavior.
+Any change must remain consistent with the app's actual behavior.
 
 ## Contact
 
-For questions regarding this privacy policy or Grimoire Wallet:
+For questions regarding this privacy policy or Grimoire Inventory:
 
 - Contact: Thurtwings Games
-- Contact email: thurtwings.games@gmail.com
+- Email: thurtwings.games@gmail.com

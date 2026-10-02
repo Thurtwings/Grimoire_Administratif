@@ -15,7 +15,7 @@ Ce dépôt centralise les documents destinés à être consultés publiquement o
 Le dépôt héberge également le site public de **Thurtwings Games / Suite Grimoire** via GitHub Pages.
 
 - Site : https://thurtwings.github.io/Grimoire_Administratif/
-- Politique Grimoire Bourse / Grimoire Wallet : https://thurtwings.github.io/Grimoire_Administratif/legal/grimoire-bourse/privacy-policy.html
+- Politique Grimoire Inventaire / Grimoire Inventory : https://thurtwings.github.io/Grimoire_Administratif/legal/grimoire-bourse/privacy-policy.html
 
 ## Contact
 
@@ -46,6 +46,8 @@ play-store/
     data-safety.md
 ```
 
+Le nom historique `grimoire-bourse` est conservé dans certains chemins afin de ne pas casser les URLs publiques et intégrations existantes. Le nom public de l'application est désormais **Grimoire Inventaire / Grimoire Inventory**.
+
 D'autres applications de la suite pourront être ajoutées avec la même organisation.
 
 ## Règles du dépôt
@@ -63,12 +65,15 @@ Les applications peuvent conserver une copie locale de leur politique afin qu'el
 
 ## Applications documentées
 
-### Grimoire Bourse / Grimoire Wallet
+### Grimoire Inventaire / Grimoire Inventory
 
-- Version documentée : **1.3.0** (`versionCode 5`)
+- Version candidate documentée : **1.5.0** (`versionCode 8`)
 - Package Android : `com.thurtwings.grimoire.money`
 - Développeur : Thurtwings Games
-- Presets monétaires disponibles : **D&D 5e 2014**, **Shadowrun (Nuyen)** et **Fallout (Capsules / Caps)**
+- Huit presets monétaires : **D&D 5e 2014**, **Pathfinder 1e**, **Pathfinder 2e**, **Warhammer Fantasy Roleplay 4e**, **Shadowdark**, **Shadowrun**, **Fallout** et **Cyberpunk RED**
+- Inventaire local par personnage : objets, quantités, catégories, emplacements, poids optionnel et notes
+- Bourse personnelle, coffre de groupe, récompenses, dettes, historique et rapports
+- Partage volontaire du coffre à proximité via Bluetooth Low Energy, avec spectateurs en lecture seule
 - Stockage local, sans compte, publicité, analytics, tracking ni permission Internet
 - Politique de confidentialité : [`legal/grimoire-bourse/privacy-policy.md`](legal/grimoire-bourse/privacy-policy.md)
 - Documents Google Play : [`play-store/grimoire-bourse/`](play-store/grimoire-bourse/)
