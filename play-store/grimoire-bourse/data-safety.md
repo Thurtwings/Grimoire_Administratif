@@ -8,7 +8,7 @@ Les réponses finales dans Google Play Console doivent être revérifiées contr
 
 - Développeur : **Thurtwings Games**
 - Package Android : `com.thurtwings.grimoire.money`
-- Version candidate : **1.5.1** (`versionCode 9`)
+- Version candidate : **1.5.1** (`versionCode 10`)
 - Contact : **thurtwings.games@gmail.com**
 
 ## Comportement général

@@ -5,7 +5,7 @@
 - Nom : **Grimoire Inventaire**
 - Développeur : **Thurtwings Games**
 - Package Android : `com.thurtwings.grimoire.money`
-- Version candidate : **1.5.1** (`versionCode 9`)
+- Version candidate : **1.5.1** (`versionCode 10`)
 - Catégorie suggérée : **Outils**
 - Contact support/confidentialité : **thurtwings.games@gmail.com**
 - Politique de confidentialité : https://thurtwings.github.io/Grimoire_Administratif/legal/grimoire-bourse/privacy-policy.html

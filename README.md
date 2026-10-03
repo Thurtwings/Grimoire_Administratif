@@ -67,7 +67,7 @@ Les applications peuvent conserver une copie locale de leur politique afin qu'el
 
 ### Grimoire Inventaire / Grimoire Inventory
 
-- Version candidate documentée : **1.5.1** (`versionCode 9`)
+- Version candidate documentée : **1.5.1** (`versionCode 10`)
 - Package Android : `com.thurtwings.grimoire.money`
 - Développeur : Thurtwings Games
 - Huit presets monétaires : **D&D 5e 2014**, **Pathfinder 1e**, **Pathfinder 2e**, **Warhammer Fantasy Roleplay 4e**, **Shadowdark**, **Shadowrun**, **Fallout** et **Cyberpunk RED**
