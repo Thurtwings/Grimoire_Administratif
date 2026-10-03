@@ -356,6 +356,8 @@ body.lang-en .support-card strong[data-lang="en"] { display: block; }
 [data-lang="en"] { display: none; }
 body.lang-en [data-lang="fr"] { display: none; }
 body.lang-en [data-lang="en"] { display: revert; }
+body.lang-en .system-summary[data-lang="en"],
+body.lang-en .feature-list[data-lang="en"] { display: grid; }
 
 @media (max-width: 850px) {
   .hero-grid, .app-card, .privacy-card { grid-template-columns: 1fr; }

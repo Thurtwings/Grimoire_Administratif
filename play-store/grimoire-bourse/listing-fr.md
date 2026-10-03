@@ -5,7 +5,7 @@
 - Nom : **Grimoire Inventaire**
 - Développeur : **Thurtwings Games**
 - Package Android : `com.thurtwings.grimoire.money`
-- Version candidate : **1.5.0** (`versionCode 8`)
+- Version candidate : **1.5.1** (`versionCode 10`)
 - Catégorie suggérée : **Outils**
 - Contact support/confidentialité : **thurtwings.games@gmail.com**
 - Politique de confidentialité : https://thurtwings.github.io/Grimoire_Administratif/legal/grimoire-bourse/privacy-policy.html
@@ -90,6 +90,12 @@ Grimoire Inventaire propose également :
 - thèmes clair, sombre ou automatique ;
 - options d'accessibilité ;
 - profils de daltonisme ;
+- tutoriel contextuel progressif, désactivable et relançable depuis les réglages ;
 - politique de confidentialité consultable hors ligne.
 
 Grimoire Inventaire est un outil indépendant pour jeux de rôle sur table. L'application n'est pas officielle et n'est affiliée à aucun éditeur de jeu de rôle.
+
+
+## Notes de version 1.5.1
+
+Nouveau tutoriel contextuel progressif pour découvrir chaque fonction au bon moment. Cette mise à jour améliore aussi les libellés français, l'affichage des monnaies aux noms longs et la lisibilité des boutons.
