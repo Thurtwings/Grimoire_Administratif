@@ -5,7 +5,7 @@
 - App name: **Grimoire Inventory**
 - Developer: **Thurtwings Games**
 - Android package: `com.thurtwings.grimoire.money`
-- Candidate version: **1.5.0** (`versionCode 8`)
+- Candidate version: **1.5.1** (`versionCode 9`)
 - Suggested category: **Tools**
 - Support/privacy contact: **thurtwings.games@gmail.com**
 - Privacy policy: https://thurtwings.github.io/Grimoire_Administratif/legal/grimoire-bourse/privacy-policy.html
@@ -90,6 +90,12 @@ Grimoire Inventory also includes:
 - light, dark or automatic themes;
 - accessibility options;
 - color-blindness profiles;
+- a progressive contextual tutorial that can be disabled or restarted from settings;
 - an offline privacy policy.
 
 Grimoire Inventory is an independent tabletop role-playing utility. It is not official and is not affiliated with any tabletop role-playing game publisher.
+
+
+## Version 1.5.1 release notes
+
+New progressive contextual tutorial that introduces each feature when it becomes relevant. This update also improves labels, long currency-name layouts and button readability.

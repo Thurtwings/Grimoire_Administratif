@@ -1,6 +1,6 @@
 # Google Play Data Safety — Grimoire Inventaire / Grimoire Inventory
 
-Document préparatoire basé sur le comportement actuel de la version candidate **1.5.0** de Grimoire Inventaire / Grimoire Inventory.
+Document préparatoire basé sur le comportement actuel de la version candidate **1.5.1** de Grimoire Inventaire / Grimoire Inventory.
 
 Les réponses finales dans Google Play Console doivent être revérifiées contre le comportement exact de l'AAB soumis et les définitions Google Play en vigueur au moment de la soumission.
 
@@ -8,7 +8,7 @@ Les réponses finales dans Google Play Console doivent être revérifiées contr
 
 - Développeur : **Thurtwings Games**
 - Package Android : `com.thurtwings.grimoire.money`
-- Version candidate : **1.5.0** (`versionCode 8`)
+- Version candidate : **1.5.1** (`versionCode 9`)
 - Contact : **thurtwings.games@gmail.com**
 
 ## Comportement général
