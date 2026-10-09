@@ -67,10 +67,11 @@ Les applications peuvent conserver une copie locale de leur politique afin qu'el
 
 ### Grimoire Inventaire / Grimoire Inventory
 
-- Version candidate documentée : **1.5.0** (`versionCode 8`)
+- Version intégrée au code, en validation : **1.6.0** (`versionCode 12`)
 - Package Android : `com.thurtwings.grimoire.money`
 - Développeur : Thurtwings Games
-- Huit presets monétaires : **D&D 5e 2014**, **Pathfinder 1e**, **Pathfinder 2e**, **Warhammer Fantasy Roleplay 4e**, **Shadowdark**, **Shadowrun**, **Fallout** et **Cyberpunk RED**
+- Treize presets monétaires : **D&D Basic**, **AD&D 1e/2e**, **D&D 3.x/4e/5e (2014/2024)**, **Pathfinder 1e/2e**, **WFRP 4e**, **Shadowdark**, **Shadowrun**, **Fallout**, **Cyberpunk RED**
+- Classification par genre et thèmes visuels génériques (clair/sombre)
 - Inventaire local par personnage : objets, quantités, catégories, emplacements, poids optionnel et notes
 - Bourse personnelle, coffre de groupe, récompenses, dettes, historique et rapports
 - Partage volontaire du coffre à proximité via Bluetooth Low Energy, avec spectateurs en lecture seule
