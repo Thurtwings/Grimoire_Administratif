@@ -67,14 +67,16 @@ Les applications peuvent conserver une copie locale de leur politique afin qu'el
 
 ### Grimoire Inventaire / Grimoire Inventory
 
-- Version intégrée au code, en validation : **1.6.0** (`versionCode 12`)
+- Version soumise au test fermé Alpha, en cours d'examen Google Play : **1.6.1.1** (`versionCode 13`)
 - Package Android : `com.thurtwings.grimoire.money`
 - Développeur : Thurtwings Games
-- Treize presets monétaires : **D&D Basic**, **AD&D 1e/2e**, **D&D 3.x/4e/5e (2014/2024)**, **Pathfinder 1e/2e**, **WFRP 4e**, **Shadowdark**, **Shadowrun**, **Fallout**, **Cyberpunk RED**
+- Dix-huit presets monétaires : **D&D Basic**, **AD&D 1e/2e**, **D&D 3.x/4e/5e (2014/2024)**, **Pathfinder 1e/2e**, **WFRP 4e**, **Shadowdark**, **L'Œil noir 5e**, **RuneQuest: Roleplaying in Glorantha**, **Dragonbane**, **Forbidden Lands**, **Shadowrun**, **Traveller (Mongoose 2e)**, **Fallout** et **Cyberpunk RED**
 - Classification par genre et thèmes visuels génériques (clair/sombre)
 - Inventaire local par personnage : objets, quantités, catégories, emplacements, poids optionnel et notes
 - Bourse personnelle, coffre de groupe, récompenses, dettes, historique et rapports
 - Partage volontaire du coffre à proximité via Bluetooth Low Energy, avec spectateurs en lecture seule
+- Compatibilité Android API 24+, réglages accessibles, thème clair/sombre et lien direct vers Google Play
 - Stockage local, sans compte, publicité, analytics, tracking ni permission Internet
+- Fiche Google Play : https://play.google.com/store/apps/details?id=com.thurtwings.grimoire.money
 - Politique de confidentialité : [`legal/grimoire-bourse/privacy-policy.md`](legal/grimoire-bourse/privacy-policy.md)
 - Documents Google Play : [`play-store/grimoire-bourse/`](play-store/grimoire-bourse/)

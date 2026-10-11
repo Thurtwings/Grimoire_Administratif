@@ -5,7 +5,7 @@
 - App name: **Grimoire Inventory**
 - Developer: **Thurtwings Games**
 - Android package: `com.thurtwings.grimoire.money`
-- Candidate version: **1.5.0** (`versionCode 8`)
+- Candidate version: **1.6.1.1** (`versionCode 13`)
 - Suggested category: **Tools**
 - Support/privacy contact: **thurtwings.games@gmail.com**
 - Privacy policy: https://thurtwings.github.io/Grimoire_Administratif/legal/grimoire-bourse/privacy-policy.html
@@ -34,14 +34,24 @@ Quick buttons let you increase or decrease quantities in seconds, making them us
 
 ### Multi-system wallet
 
-Eight built-in currency presets are available:
+Eighteen built-in currency presets are available:
 
-- **D&D 5e 2014**;
+- **D&D Basic (B/X, BECMI and Rules Cyclopedia)**;
+- **AD&D 1e**;
+- **AD&D 2e**;
+- **D&D 3.x**;
+- **D&D 4e**;
+- **D&D 5e 2014 / 2024**;
 - **Pathfinder 1e**;
 - **Pathfinder 2e**;
 - **Warhammer Fantasy Roleplay 4e**;
 - **Shadowdark**;
+- **The Dark Eye 5e**;
+- **RuneQuest: Roleplaying in Glorantha**;
+- **Dragonbane**;
+- **Forbidden Lands**;
 - **Shadowrun**;
+- **Traveller (Mongoose 2e)**;
 - **Fallout**;
 - **Cyberpunk RED**.
 
@@ -90,6 +100,15 @@ Grimoire Inventory also includes:
 - light, dark or automatic themes;
 - accessibility options;
 - color-blindness profiles;
+- adjustable text size and high contrast;
+- direct access to the Google Play listing from settings;
 - an offline privacy policy.
 
 Grimoire Inventory is an independent tabletop role-playing utility. It is not official and is not affiliated with any tabletop role-playing game publisher.
+
+## Version 1.6.1.1 release notes
+
+- 18 genre-grouped currency systems, including The Dark Eye 5e, RuneQuest: Roleplaying in Glorantha, Dragonbane, Forbidden Lands and Traveller (Mongoose 2e).
+- Improved Android 7 compatibility for nearby Bluetooth sharing.
+- More readable and accessible system selector, settings, reports and party chest splitting.
+- Added a Google Play link under Settings > About.
