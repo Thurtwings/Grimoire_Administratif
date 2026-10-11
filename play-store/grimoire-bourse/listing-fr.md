@@ -5,7 +5,7 @@
 - Nom : **Grimoire Inventaire**
 - Développeur : **Thurtwings Games**
 - Package Android : `com.thurtwings.grimoire.money`
-- Version candidate : **1.5.0** (`versionCode 8`)
+- Version candidate : **1.6.1.1** (`versionCode 13`)
 - Catégorie suggérée : **Outils**
 - Contact support/confidentialité : **thurtwings.games@gmail.com**
 - Politique de confidentialité : https://thurtwings.github.io/Grimoire_Administratif/legal/grimoire-bourse/privacy-policy.html
@@ -34,14 +34,24 @@ Les boutons rapides permettent d'augmenter ou de diminuer une quantité en quelq
 
 ### Bourse multi-système
 
-Huit presets monétaires sont intégrés :
+Dix-huit presets monétaires sont intégrés :
 
-- **D&D 5e 2014** ;
+- **D&D Basic (B/X, BECMI et Rules Cyclopedia)** ;
+- **AD&D 1e** ;
+- **AD&D 2e** ;
+- **D&D 3.x** ;
+- **D&D 4e** ;
+- **D&D 5e 2014 / 2024** ;
 - **Pathfinder 1e** ;
 - **Pathfinder 2e** ;
 - **Warhammer Fantasy Roleplay 4e** ;
 - **Shadowdark** ;
+- **L'Œil noir 5e** ;
+- **RuneQuest: Roleplaying in Glorantha** ;
+- **Dragonbane** ;
+- **Forbidden Lands** ;
 - **Shadowrun** ;
+- **Traveller (Mongoose 2e)** ;
 - **Fallout** ;
 - **Cyberpunk RED**.
 
@@ -90,6 +100,15 @@ Grimoire Inventaire propose également :
 - thèmes clair, sombre ou automatique ;
 - options d'accessibilité ;
 - profils de daltonisme ;
+- taille de texte réglable et contraste élevé ;
+- accès direct à la fiche Google Play depuis les réglages ;
 - politique de confidentialité consultable hors ligne.
 
 Grimoire Inventaire est un outil indépendant pour jeux de rôle sur table. L'application n'est pas officielle et n'est affiliée à aucun éditeur de jeu de rôle.
+
+## Notes de version 1.6.1.1
+
+- 18 systèmes monétaires regroupés par genre, dont L'Œil noir 5e, RuneQuest: Roleplaying in Glorantha, Dragonbane, Forbidden Lands et Traveller (Mongoose 2e).
+- Compatibilité Android 7 renforcée pour le partage Bluetooth à proximité.
+- Sélecteur de système, réglages, rapport et répartition du coffre rendus plus lisibles et accessibles.
+- Ajout d'un lien vers Google Play dans Réglages > À propos.

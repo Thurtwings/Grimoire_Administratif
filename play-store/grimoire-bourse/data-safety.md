@@ -1,6 +1,6 @@
 # Google Play Data Safety — Grimoire Inventaire / Grimoire Inventory
 
-Document préparatoire basé sur le comportement actuel de la version candidate **1.5.0** de Grimoire Inventaire / Grimoire Inventory.
+Document préparatoire basé sur le comportement actuel de la version candidate **1.6.1.1** de Grimoire Inventaire / Grimoire Inventory.
 
 Les réponses finales dans Google Play Console doivent être revérifiées contre le comportement exact de l'AAB soumis et les définitions Google Play en vigueur au moment de la soumission.
 
@@ -8,7 +8,7 @@ Les réponses finales dans Google Play Console doivent être revérifiées contr
 
 - Développeur : **Thurtwings Games**
 - Package Android : `com.thurtwings.grimoire.money`
-- Version candidate : **1.5.0** (`versionCode 8`)
+- Version candidate : **1.6.1.1** (`versionCode 13`)
 - Contact : **thurtwings.games@gmail.com**
 
 ## Comportement général
@@ -120,6 +120,6 @@ https://thurtwings.github.io/Grimoire_Administratif/legal/grimoire-bourse/privac
 - synchroniser la politique embarquée et la politique publique ;
 - vérifier le nom public Grimoire Inventaire / Grimoire Inventory ;
 - vérifier les descriptions FR/EN ;
-- vérifier que les captures correspondent réellement à l'interface 1.5 finale ;
+- vérifier que les captures correspondent réellement à l'interface 1.6.1.1 finale ;
 - ne pas annoncer de distribution automatique de récompenses via BLE tant qu'elle n'existe pas ;
 - ne pas annoncer que plusieurs managers simultanés sont validés tant que ce test n'est pas confirmé.
