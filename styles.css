@@ -338,6 +338,7 @@ h3 { font-size: 1.2rem; }
 .support-card strong[data-lang] { display: none; }
 body:not(.lang-en) .support-card strong[data-lang="fr"] { display: block; }
 body.lang-en .support-card strong[data-lang="en"] { display: block; }
+body.lang-es .support-card strong[data-lang="es"] { display: block; }
 
 .legal-page { padding: 72px 0 100px; }
 .legal-header { margin-bottom: 34px; }
@@ -353,9 +354,12 @@ body.lang-en .support-card strong[data-lang="en"] { display: block; }
 .footer-row { display: flex; justify-content: space-between; gap: 18px; align-items: center; flex-wrap: wrap; }
 .footer-links { display: flex; gap: 14px; flex-wrap: wrap; }
 
-[data-lang="en"] { display: none; }
+[data-lang="en"], [data-lang="es"] { display: none; }
 body.lang-en [data-lang="fr"] { display: none; }
 body.lang-en [data-lang="en"] { display: revert; }
+body.lang-en [data-lang="es"] { display: none; }
+body.lang-es [data-lang="fr"], body.lang-es [data-lang="en"] { display: none; }
+body.lang-es [data-lang="es"] { display: revert; }
 
 @media (max-width: 850px) {
   .hero-grid, .app-card, .privacy-card { grid-template-columns: 1fr; }
