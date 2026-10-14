@@ -67,10 +67,12 @@ Les applications peuvent conserver une copie locale de leur politique afin qu'el
 
 ### Grimoire Inventaire / Grimoire Inventory
 
-- Version soumise au test fermé Alpha, en cours d'examen Google Play : **1.6.1.1** (`versionCode 13`)
+- Version intégrée au code (`main`) : **1.6.1.2** (`versionCode 14`), PR #63 fusionnée le 14/10/2026 ; publication Google Play non confirmée
+- Version soumise au test fermé Alpha le 11/10/2026 : **1.6.1.1** (`versionCode 13`) ; statut actuel sur Google Play à vérifier
 - Package Android : `com.thurtwings.grimoire.money`
 - Développeur : Thurtwings Games
 - Dix-huit presets monétaires : **D&D Basic**, **AD&D 1e/2e**, **D&D 3.x/4e/5e (2014/2024)**, **Pathfinder 1e/2e**, **WFRP 4e**, **Shadowdark**, **L'Œil noir 5e**, **RuneQuest: Roleplaying in Glorantha**, **Dragonbane**, **Forbidden Lands**, **Shadowrun**, **Traveller (Mongoose 2e)**, **Fallout** et **Cyberpunk RED**
+- Trois langues d'interface : français, anglais et espagnol ; politique de confidentialité intégrée affichée en anglais si l'espagnol est sélectionné
 - Classification par genre et thèmes visuels génériques (clair/sombre)
 - Inventaire local par personnage : objets, quantités, catégories, emplacements, poids optionnel et notes
 - Bourse personnelle, coffre de groupe, récompenses, dettes, historique et rapports
