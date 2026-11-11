@@ -67,18 +67,18 @@ Les applications peuvent conserver une copie locale de leur politique afin qu'el
 
 ### Grimoire Inventaire / Grimoire Inventory
 
-- Version intégrée au code (`main`) : **1.6.1.2** (`versionCode 14`), PR #63 fusionnée le 14/10/2026 ; publication Google Play non confirmée
-- Version soumise au test fermé Alpha le 11/10/2026 : **1.6.1.1** (`versionCode 13`) ; statut actuel sur Google Play à vérifier
+- Version publique annoncée : **1.7** (`versionCode 17`), disponible sur Google Play selon le développeur le 11/11/2026.
 - Package Android : `com.thurtwings.grimoire.money`
 - Développeur : Thurtwings Games
-- Dix-huit presets monétaires : **D&D Basic**, **AD&D 1e/2e**, **D&D 3.x/4e/5e (2014/2024)**, **Pathfinder 1e/2e**, **WFRP 4e**, **Shadowdark**, **L'Œil noir 5e**, **RuneQuest: Roleplaying in Glorantha**, **Dragonbane**, **Forbidden Lands**, **Shadowrun**, **Traveller (Mongoose 2e)**, **Fallout** et **Cyberpunk RED**
-- Trois langues d'interface : français, anglais et espagnol ; politique de confidentialité intégrée affichée en anglais si l'espagnol est sélectionné
-- Classification par genre et thèmes visuels génériques (clair/sombre)
-- Inventaire local par personnage : objets, quantités, catégories, emplacements, poids optionnel et notes
-- Bourse personnelle, coffre de groupe, récompenses, dettes, historique et rapports
-- Partage volontaire du coffre à proximité via Bluetooth Low Energy, avec spectateurs en lecture seule
-- Compatibilité Android API 24+, réglages accessibles, thème clair/sombre et lien direct vers Google Play
-- Stockage local, sans compte, publicité, analytics, tracking ni permission Internet
+- **21 systèmes monétaires** compatibles avec le moteur local, dont les variantes de D&D, Pathfinder, Shadowrun, Fallout, Cyberpunk RED, 13th Age et Starfinder 1e/2e.
+- **16 langues** d'interface ; site vitrine disponible en français, anglais et espagnol.
+- Inventaire local par personnage avec **choix persistant entre affichage Grille et Liste** en version 1.7, quantités, catégories, emplacements, poids optionnel et notes.
+- Vue grille adaptative, boutons de modification/suppression accessibles, texte agrandi pris en charge.
+- Bourse personnelle, paiements intelligents, coffre de groupe, récompenses, dettes, historique et rapports.
+- Partage volontaire du coffre à proximité via Bluetooth Low Energy, avec spectateurs en lecture seule.
+- Fonctionnement hors ligne, sans compte, publicité, analytics, tracking ni permission Internet.
 - Fiche Google Play : https://play.google.com/store/apps/details?id=com.thurtwings.grimoire.money
 - Politique de confidentialité : [`legal/grimoire-bourse/privacy-policy.md`](legal/grimoire-bourse/privacy-policy.md)
 - Documents Google Play : [`play-store/grimoire-bourse/`](play-store/grimoire-bourse/)
+
+Les chemins historiques `grimoire-bourse` restent inchangés pour préserver les liens publics existants. Les fonctions initialement envisagées pour 1.7 mais non livrées (notamment les actions rapides avancées sur consommables) ne sont pas annoncées comme disponibles.
